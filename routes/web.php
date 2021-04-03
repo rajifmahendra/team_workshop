@@ -17,5 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Route::get('/home', 'HomeController@index');
 
+=======
+Route::get('/profile', 'ProfileController@index');
+>>>>>>> profile
